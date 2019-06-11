@@ -22,6 +22,7 @@
 **Software Architecture and Development, Automotive**
 
 - Design and implementation of system image generation and flashing components
+- PSIRT PIC and Safety PIC for above components
 - Architectural lead for next iteration of modular and scalable flashing framework
 - Implement suspend framework for QNX OS running on hypervisor environment
 - Requirement and design specifications for HDCP repeater use-cases
