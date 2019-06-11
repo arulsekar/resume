@@ -1,0 +1,287 @@
+\documentclass[letter,10pt]{article}
+%\documentclass[a4paper,10pt]{article}
+
+%A Few Useful Packages
+\usepackage{marvosym}
+\usepackage{fontspec} 					%for loading fonts
+\usepackage{xunicode,xltxtra,url,parskip} 	%other packages for formatting
+\RequirePackage{color,graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+%\usepackage[big]{layaureo} 				%better formatting of the A4 page
+% an alternative to Layaureo can be ** \usepackage{fullpage} **
+\usepackage[cm]{fullpage}
+\usepackage{supertabular} 				%for Grades
+\usepackage{titlesec}					%custom \section
+
+%Setup hyperref package, and colours for links
+\usepackage{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+%FONTS
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin}
+
+%CV Sections inspired by: 
+%http://stefano.italians.nl/archives/26
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+%Tweak a bit the top margin
+%\addtolength{\voffset}{-1.3cm}
+
+%Italian hyphenation for the word: ''corporations''
+\hyphenation{im-pre-se}
+
+%-------------WATERMARK TEST [**not part of a CV**]---------------
+\usepackage[absolute]{textpos}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+ 
+%\cfoot{\footnotesize{Page \thepage \hspace{1pt} of \pageref{LastPage}}}
+\cfoot{\footnotesize{Page \thepage \hspace{1pt} of 2}}
+\rfoot{\footnotesize{\href{http://www.arulsekar.com}{www.arulsekar.com}}}
+\lfoot{\textsc{\footnotesize{Arul Sekar}}}
+\renewcommand{\headrulewidth}{0pt}
+
+\setlength{\TPHorizModule}{30mm}
+\setlength{\TPVertModule}{\TPHorizModule}
+\textblockorigin{2mm}{0.65\paperheight}
+\setlength{\parindent}{0pt}
+
+%--------------------BEGIN DOCUMENT----------------------
+\begin{document}
+
+% \pagestyle{empty} % non-numbered pages
+
+\font\fb=''[cmr10]'' %for use with \LaTeX command
+
+%--------------------TITLE-------------
+\par{\centering
+		{\Huge \textsc{Arul Selvan Sekar}
+	}\bigskip\par}
+
+\begin{center}
+\begin{tabular}{ rl | rl | rl }
+	\textsc{       email:}       & \href{mailto:arul@arulsekar.com}{arul@arulsekar.com} &
+	\textsc{       Phone:}     & 425-381-6841 &
+	\textsc{       Website:}   & \href{http://www.arulsekar.com}{www.arulsekar.com}
+\end{tabular}
+\end{center}
+
+%--------------------SECTIONS-----------------------------------
+
+\section{Work Experience}
+\begin{tabular}{r|p{16cm}}
+
+\emph{Current} & \textbf{Senior Software Engineer, TEGRA}\\
+\textsc{Jan 2013}&\emph{NVIDIA, Redmond WA}\\
+&\footnotesize{\textbf{Core Program Architect, Automotive Foundation (Current)
+}}\\
+&\footnotesize{
+-- Responsible for architecture of SW Core program for Automotive Foundation (Flashing, Bootloader, TEE, Comms, Platform, etc.)
+}\\
+&\footnotesize{
+-- Architect system level requirements and feature interdependencies, and decompose them to various components
+}\\
+&\footnotesize{
+-- Coordinate Feature Architects to complete architecture of component level requirements
+}\\
+&\footnotesize{\textbf{Software Architecture and Development, Automotive
+}}\\
+&\footnotesize{
+-- Design and implementation of system image generation and flashing components
+}\\
+&\footnotesize{
+-- Architectural lead for next iteration of modular and scalable flashing framework
+}\\
+&\footnotesize{
+-- Implement suspend framework for QNX OS running on hypervisor environment
+}\\
+&\footnotesize{
+-- Requirement and design specifications for HDCP repeater use-cases
+}\\
+&\footnotesize{\textbf{Tablet SW Architecture, Android Power and Perf
+}}\\
+&\footnotesize{
+ -- Improve software architecture for memory management, performance and power governance
+}\\
+&\footnotesize{
+ -- Modifications to App Framework (Java), Native Libraries (C++), Kernel (C) and HAL 
+}\\
+&\footnotesize{
+ -- Create metrics and viable solutions to quantify and track these improvements
+}\\
+&\footnotesize{
+-- Define architectural changes, improvements and metrics for upcoming products
+}\\
+&\footnotesize{\textbf{System Software Development, Android
+}}\\
+&\footnotesize{
+ -- Kernel and user-space software stack that balance power and performance of SoC
+}\\
+&\footnotesize{
+ -- TEE, Secure OS on SoC for Security operations (such as RSA, AES, HMAC, CMAC) 
+}\\
+&\footnotesize{\textbf{System Software Development, Windows on ARM
+}}\\
+&\footnotesize{
+ -- Power management for USB, XUSB software stack
+}\\
+&\footnotesize{
+ -- POR for XUSB changes on upcoming SoC 
+}\\
+&\footnotesize{
+ -- Customer interaction for debugging on upcoming products 
+}\\
+
+\multicolumn{2}{c}{} \\
+
+\emph{Dec 2012} & \textbf{Embedded Software Engineer, OMAP Platform Business Unit}\\
+\textsc{Jun 2012}&\emph{Texas Instruments, Redmond WA}\\
+&\footnotesize{
+ - Responsible for developing OS and firmware drivers on Windows RT (WoA) tablets based on the OMAP processor
+}\\
+&\footnotesize{
+ - Owner of Variable Services component of Security; point of contact in TI Redmond for security-related issues
+}\\
+&\footnotesize{
+ - Ownership of functionality, robustness, and performance of UEFI and OS driver, and Trusted Application in ARM TrustZone 
+}\\
+&\footnotesize{
+ - Development of drivers from mid-development level to production level, including passing the Windows certification
+}\\
+&\footnotesize{
+ - Active discussions and communications with numerous TI partners that provide implementation and specifications
+}\\
+&\footnotesize{
+ - Working knowledge of security including ARM TrustZone, secure boot, measure boot, and trusted applications
+}\\
+&\footnotesize{
+ - Fluent in UEFI DXI drivers and TianoCore EDKII; Familiarity of WHCK Security tests
+}\\
+&\footnotesize{
+ - Participate in design and architecture reviews for Security
+}\\
+&\footnotesize{
+ - Position requires usage of Lauterbach JTAG for HW debugging, WinDbg for debugging Windows device drivers
+}\\
+&\footnotesize{
+ - Recent part of Power Management team, resolving related issues and bugs related to PMIC and PRCM
+}\\
+
+\multicolumn{2}{c}{} \\
+
+\textsc{Jun 2012} & \textbf{Teaching Assistant, Electrical Engineering Dept.}\\
+\textsc{Sep 2010}&\emph{University of Washington, Seattle}\\
+&\footnotesize{
+ - EE 478 (Embedded Capstone), EE 472 (Microcomputer Systems), and EE 271 (Digital Circuits and Systems)
+}\\
+&\footnotesize{
+ - Supervise, guide, and evaluate students with labs and final projects; review sessions for additional materials
+}\\
+&\footnotesize{
+ - Critique and award submitted functional and design specifications, proposals, and system designs
+}\\
+
+\multicolumn{2}{c}{} \\
+
+
+\textsc{Sep 2008} & \textbf{Engineering Intern, Premium Applications Engineering}\\
+\textsc{Sep 2010}&\emph{ARRIS Group Inc./Digeo Inc., Kirkland WA}\\
+&\footnotesize{
+ - Work as developer in Software Development Team for the Moxi HD DVR and Moxi Mate devices
+}\\
+&\footnotesize{
+ - Fixed bugs related to the Moxi C++ Applications and XML/C++ Framework for UI and data layers
+}\\
+&\footnotesize{
+ - Filter performance and warning bugs generated by Coverity and filed the appropriate bugs on Bugzilla
+}\\
+
+\end{tabular}
+
+\section{Education}
+\begin{tabular}{rl}	
+ \textsc{June} 2012 & Master of Science, \textsc{Electrical Engineering}, \textbf{University of Washington}, Seattle\\
+&\normalsize {Concentration}: Robotics \& Controls and Embedded Systems \\
+& \small Overall GPA: \normalsize\textbf{3.75} \\
+&\\
+
+\textsc{August} 2009 & Bachelor of Science, \textsc{Electrical Engineering}, \textbf{University of Washington}, Seattle \\
+&\normalsize {Concentration}: Embedded Systems \\
+& \small\emph{Graduated Cum Laude} | Overall GPA: \normalsize\textbf{3.76} \small | Major GPA: \normalsize\textbf{3.94} \\
+
+\end{tabular}
+
+
+\section{Academic Achievements}
+\begin{tabular}{r|p{16cm}}
+
+\textsc{Jun 2012} & \textbf{Dynamic Gravity Compensation for Raven II Surgical Robot}\\
+\textsc{Jan 2011}&\emph{BioRobotics Laboratory, University of Washington, Seattle}\\
+&\footnotesize{
+ - Analyze the effects on dynamics due to change in orientation for Raven Surgical Robot
+}\\
+&\footnotesize{
+ - Develop add-on hardware to calculate orientation of robot using sensor measurements
+}\\
+&\footnotesize{
+ - Communicate orientation data to control system and modify the algorithm to compensate
+}\\
+
+\multicolumn{2}{c}{} \\
+
+\textsc{Spring} & \textbf{RSK Robotic Arm}\\
+\textsc{2011}&\emph{Capstone Project for EE 449 (Control System Design)}\\
+&\footnotesize{
+ - 3-DOF arm that aids powered wheelchair users to automatically activate handicap door buttons upon request
+}\\
+&\footnotesize{
+ - Implemented with cost-effective hardware, GUI for end-user and designer; using threads and wxWidgets on Linux
+}\\
+&\footnotesize{
+ - Computer vision and Inverse Kinematics calculations for positional control; Safety using dynamic velocity control
+}\\
+
+\multicolumn{2}{c}{} \\
+
+\textsc{Winter} & \textbf{Lunar Rover Prototype}\\
+\textsc{2011}&\emph{Project Manager for EE 542, Rocket City Space Pioneers' Google Lunar X Prize}\\
+&\footnotesize{
+ - Developed Functional, Requirement, Architecture, and Test Specifications, HW/SW Implementation documents
+}\\
+&\footnotesize{
+ - For design of control system on lunar rover, covering locomotion, camera, communication with satellite, etc.
+}\\
+&\footnotesize{
+ - Involved in project planning and timelines, and design discussion with team and customers
+}\\
+\multicolumn{2}{c}{} \\
+
+
+\textsc{Fall} & \textbf{Small Scale Positioning System}\\
+\textsc{2008} &\emph{Capstone Project for EE 478 (Design of Computer Subsystems)}\\
+&\footnotesize{
+ - Portable device that enables the user to track the 3D location of any targeted object indoors with high accuracy
+}\\
+&\footnotesize{
+ - Consists of six independent subsystems that coordinate, and use concepts of trilateration, to calculate location
+}\\
+&\footnotesize{
+ - Wireless communication and high-level power management to preserve battery life on the subsystems
+}\\
+
+\end{tabular}
+
+\section{Highlighted Skills}
+
+\begin{tabular}{r|p{16cm}}
+
+\textsc{Hardware} & \emph{Processors: } Tegra, OMAP, PIC, MSP | \emph{Devices: } Android Tablet, Win RT Tablet, Automotive AI Platform \\%\multicolumn{2}{c}{}\\
+\textsc{Languages} & C, C++, Python, Verilog, MATLAB | \emph{Dev Stack: } Android, Windows 8 RT, Linux, QNX, UEFI, ROS, Bare-metal\\%\multicolumn{2}{c}{}
+
+\end{tabular}
+
+\end{document}
