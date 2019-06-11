@@ -99,6 +99,20 @@
 
 ## Academic Achievements
 
+### Robotics Software Engineer Nanodegree
+*Udacity [Jan 2019 - Jun 2019]*
+
+- Learn fundamentals of Perception, Control, Localization, Mapping, SLAM, Path Planning and essentials of ROS and Gazebo
+- Create nodes in ROS to chase white colored balls for a custom robot built and simulated in a Gazebo environment
+- Implement 1D Kalman Filters (KF) in C++ and extend learning to multidimensional KF
+- Use Extended KF in ROS to perform sensor fusion and localize turtlebot's position in Gazebo environment
+- Implement 2D Montel Carlo Localization (MCL) in C++ ane extend learning to Adaptive MCL
+- Use Adaptive MCL in ROS to estimate a custom robot's position relative to a known map of Gazebo environment
+- Implement 2D Occupancy Grid Mapping Algorithm and Sensor Fusion in C++ and extend learning to 3D Mapping
+- Learn Particle Filter Approach to Online and Full SLAM vis Grid-based FastSLAM and GraphSLAM Algorithms
+- Use Real-Time Appearance-Based Mapping (RTAB-Map) in ROS to localize and map a custom robot in a Gazebo environment
+- Learn Discrete, Sample-based and Probabilistic Path Planning, and use ROS to build a home-service robot in Gazebo environment
+
 ### Dynamic Gravity Compensation for Raven II Surgical Robot
 *BioRobotics Laboratory, University of Washington, Seattle [Jan 2011 - Jun 2012]*
 
