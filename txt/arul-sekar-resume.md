@@ -1,4 +1,4 @@
-﻿# Arul Selvan Sekar 
+﻿# Arul Selvan Sekar
 
 **Email:** [arul@arulsekar.com](arul@arulsekar.com)
 
@@ -13,32 +13,32 @@
 ### Senior Software Engineer, TEGRA
 *NVIDIA, Redmond WA [Jan 2013 - Current]*
 
-** Core Program Architect, Automotive Foundation (Current)**
+**Core Program Architect, Automotive Foundation (Current)**
 
 - Responsible for architecture of SW Core program for Automotive Foundation (Flashing, Bootloader, TEE, Comms, Platform, etc.)
 - Architect system level requirements and feature interdependencies, and decompose them to various components
 - Coordinate Feature Architects to complete architecture of component level requirements
 
-** Software Architecture and Development, Automotive **
+**Software Architecture and Development, Automotive**
 
 - Design and implementation of system image generation and flashing components
 - Architectural lead for next iteration of modular and scalable flashing framework
 - Implement suspend framework for QNX OS running on hypervisor environment
 - Requirement and design specifications for HDCP repeater use-cases
 
-** Tablet SW Architecture, Android Power and Perf **
+**Tablet SW Architecture, Android Power and Perf**
 
 - Improve software architecture for memory management, performance and power governance
 - Modifications to App Framework (Java), Native Libraries (C++), Kernel and HAL (C)
 - Create metrics and viable solutions to quantify and track these improvements
 - Define architectural changes, improvements and metrics for upcoming products
 
-** System Software Development, Android **
+**System Software Development, Android**
 
 - Kernel and user-space software stack that balance power and performance of SoC
-- TEE, Secure OS on SoC for Security operations (such as RSA, AES, HMAC, CMAC) 
+- TEE, Secure OS on SoC for Security operations (such as RSA, AES, HMAC, CMAC)
 
-** System Software Development, Windows on ARM ** 
+**System Software Development, Windows on ARM**
 
 - Power management for USB, XUSB, Camera and DirectTouch software stack
 - POR for XUSB changes on upcoming SoC
@@ -62,7 +62,7 @@
 ### Teaching Assistant, Electrical Engineering Dept.
 *University of Washington, Seattle [Sep 2010 - Jun 2012]*
 
-- EE 478 (Embedded Capstone), EE 472 (Microcomputer Systems), and EE 271 (Digital Circuits and Systems) 
+- EE 478 (Embedded Capstone), EE 472 (Microcomputer Systems), and EE 271 (Digital Circuits and Systems)
 - Supervise, guide, and evaluate students with labs and final projects; review sessions for additional materials
 - Critique and award submitted functional and design specifications, proposals, and system designs
 
@@ -80,15 +80,19 @@
 
 ### Master of Science, Electrical Engineering, University of Washington, Seattle
 
-- Concentration: Robotics & Controls and Embedded Systems
-- June 2012
-- Overall GPA: 3.75 
+> Concentration: Robotics & Controls and Embedded Systems
+
+> June 2012
+
+> Overall GPA: 3.75
 
 ### Bachelor of Science, Electrical Engineering, University of Washington, Seattle
 
-- Concentration: Embedded Systems
-- August 2009, Graduated Cum Laude
-- Overall GPA: 3.76 | Major GPA: 3.94 
+> Concentration: Embedded Systems
+
+> August 2009, Graduated Cum Laude
+
+> Overall GPA: 3.76 | Major GPA: 3.94
 
 ----
 
@@ -127,9 +131,13 @@
 ## Highlighted Skills
 
 ### Hardware
-- Processors: Tegra, OMAP, PIC, MSP
-- Devices: Android Tablet, Win RT Tablet, Automotive AI Platform
+
+> Processors: Tegra, OMAP, PIC, MSP
+
+> Devices: Android Tablet, Win RT Tablet, Automotive AI Platform
 
 ### Software
-- Languages: C, C++, Python, Verilog, MATLAB
-- Stack: Android, Windows 8 RT, Linux, QNX, UEFI, ROS, Bare-metal
+
+> Languages: C, C++, Python, Verilog, MATLAB
+
+> Stack: Android, Windows 8 RT, Linux, QNX, UEFI, ROS, Bare-metal
